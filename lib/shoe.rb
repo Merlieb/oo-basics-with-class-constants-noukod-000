@@ -10,9 +10,9 @@ class Shoe
     self.condition = "new"
     puts "Your shoe is as good as new!"
   end
-GENRES = []
-def genre=(genre)
-  @genre = genre
-  GENRES << genre
-end
+  BRANDS = []
+  def brand=(brand)
+    @brand = brand
+    BRANDS << brand
+  end
 end
